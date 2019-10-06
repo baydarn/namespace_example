@@ -1,0 +1,8 @@
+enkapsüle etmesi dediğimiz gibi () içine almasından dolayı
+o yapının adı IIFE.
+namespace yapmanın sebebi de aynı  koddaki başka fonksiyon adlarıyla, variable adlarıyla çakışmasını önlemek için
+iki kişi de oturup printArray() diye bir fonksiyon yazsa aynı kodun içinde
+biri mesela diğerinden sonra yazsın, birinin fonksiyonu kalır diğerininki uçar
+ama biri x namespace'i yapıp o fonksiyonu orda tanımlasın
+diğeri de y namespace'inde tanımlasın
+erişirken x.printArray veya y.printArray diye kullanıcaz dolayısıyla çakışmıycak.
